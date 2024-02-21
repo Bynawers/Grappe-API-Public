@@ -1,0 +1,29 @@
+{
+    "dependencies": {
+        "bcrypt": "^5.1.0",
+        "cors": "^2.8.5",
+        "eslint": "^8.56.0",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.0",
+        "mongoose": "^6.8.3",
+        "mongoose-unique-validator": "^3.1.0",
+        "multer": "^1.4.5-lts.1",
+        "nedb": "^1.8.0",
+        "prettier": "^3.2.4",
+        "swagger-jsdoc": "^6.2.8",
+        "swagger-ui-express": "^5.0.0"
+    },
+    "scripts": {
+        "start": "node server.js",
+        "watch": "nodemon server.js"
+    },
+    "name": "server-grappe",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Bynawers",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    }
+}
